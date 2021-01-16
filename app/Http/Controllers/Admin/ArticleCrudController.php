@@ -71,16 +71,11 @@ class ArticleCrudController extends CrudController
      * @see  https://backpackforlaravel.com/docs/crud-operation-list-entries
      * @return void
      */
-    protected function setupListOperation()
-    {
-        CRUD::setFromDb(); // columns
-
-        /**
-         * Columns can be defined using the fluent syntax or array syntax:
-         * - CRUD::column('price')->type('number');
-         * - CRUD::addColumn(['name' => 'price', 'type' => 'number']); 
-         */
-    }
+  protected function setupListOperation()
+{
+    $this->crud->set('show.setFromDb', false);
+    $this->crud->addColumns($this->getFieldsData(TRUE));
+}
 
     /**
      * Define what happens when the Create operation is loaded.
