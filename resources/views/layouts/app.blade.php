@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic Page - Industrious by TEMPLATED</title>
+		<title>Student Management System</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -17,7 +17,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">Industrious</a>
+				<a class="logo" href="index.html">Student Management System</a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
@@ -34,7 +34,7 @@
 
 		<!-- Heading -->
 			<div id="heading" >
-				<h1>Generic Page</h1>
+				<h1>Student Management System</h1>
 			</div>
 
 		<!-- Main -->
