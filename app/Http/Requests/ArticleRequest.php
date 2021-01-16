@@ -23,12 +23,13 @@ class ArticleRequest extends FormRequest
      *
      * @return array
      */
-    public function rules()
-    {
-        return [
-            // 'name' => 'required|min:5|max:255'
-        ];
-    }
+ public function rules()
+{
+    return [
+        'title' => 'required|min:5|max:255',
+        'content' => 'required'
+    ];
+}
 
     /**
      * Get the validation attributes that apply to the request.

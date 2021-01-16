@@ -52,6 +52,8 @@ class ArticleCrudController extends CrudController
     }
 
 
+
+
     /**
      * Configure the CrudPanel object. Apply settings to all operations.
      * 

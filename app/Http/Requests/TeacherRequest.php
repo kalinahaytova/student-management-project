@@ -23,12 +23,13 @@ class TeacherRequest extends FormRequest
      *
      * @return array
      */
-    public function rules()
-    {
-        return [
-            // 'name' => 'required|min:5|max:255'
-        ];
-    }
+public function rules()
+{
+    return [
+        'Name' => 'required|min:5|max:255',
+        'E-mail' => 'required|unique:tags'
+    ];
+}
 
     /**
      * Get the validation attributes that apply to the request.
