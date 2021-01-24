@@ -31,7 +31,7 @@ class ArticleCrudController extends CrudController
                 'label' => 'Content',
                 'type' => ($show ? "textarea": 'ckeditor'),
             ],
-            [    // Select2Multiple = n-n relationship (with pivot table)
+ /*           [    // Select2Multiple = n-n relationship (with pivot table)
                 'label'     => "Teachers",
                 'type'      => ($show ? "select": 'select2_multiple'),
                 'name'      => 'tags', // the method that defines the relationship in your Model
@@ -40,7 +40,7 @@ class ArticleCrudController extends CrudController
                 'model'     => "App\Models\Teacher", // foreign key model
                 'attribute' => 'Name', // foreign key attribute that is shown to user
                 'pivot'     => true, // on create&update, do you need to add/delete pivot table entries?
-            ],
+            ],*/
             [
                 'label' => "Article Image",
                 'name' => "image",

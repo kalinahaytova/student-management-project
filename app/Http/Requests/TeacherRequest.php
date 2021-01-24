@@ -27,7 +27,7 @@ public function rules()
 {
     return [
         'Name' => 'required|min:5|max:255',
-        'E-mail' => 'required|unique:tags'
+        'E-mail' => 'required'
     ];
 }
 

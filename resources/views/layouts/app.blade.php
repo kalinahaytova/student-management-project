@@ -26,7 +26,6 @@
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-				    <li><a href="index.html">Home</a></li>
 					<li><a href="/students">Students</a></li>
 					<li><a href="/teachers">Teachers</a></li>
                     <li><a href="/articles">Articles</a></li>

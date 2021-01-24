@@ -16,4 +16,7 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', [IndexController::class, 'index']);
+Route::get('/students', [IndexController::class, 'getStudents']);
+Route::get('/teachers', [IndexController::class, 'getTeachers']);
+Route::get('/articles', [IndexController::class, 'getArticles']);
 
